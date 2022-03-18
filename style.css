@@ -1,0 +1,80 @@
+input{
+    background-color: white;
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+.shade {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 7px 10px #888888;
+    background-color: rgb(233, 112, 75);
+    border-radius: 45px;
+}
+
+.button {
+    margin-left: 45%;
+    width: 140px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: rgb(250, 100, 41);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+.button:hover {
+    background-color: #ee5324;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.username {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+.password {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.title {
+    margin-bottom: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 132px;
+    margin-bottom: 20px;
+}
+
+.signin{
+    width: 310px;
+    height: 40px;
+    margin-left: 40px;
+    border-radius: 15px;
+    background-color: rgb(95, 160, 255);
+}
+
+fieldset{
+    width: 1px; 
+    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    border-radius: 25px;
+    box-shadow: 0 5px 5px 6px rgb(161, 161, 161);
+    border: 0px solid;
+    background-color: white;
+}
+
+body{ 
+    background-color: rgb(95, 106, 255);
+}
